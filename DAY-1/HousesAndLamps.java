@@ -1,5 +1,12 @@
 /*
 On a given street, there are n houses and m lamps. The positions of the houses and lamps are given as two integer arrays houses and lamps respectively. Each lamp can illuminate a certain radius around it. The goal is to find the minimum radius required for the lamps to illuminate all the houses on the street.
+
+Example:
+Input:
+houses = [1, 3, 4]
+lamps = [0, 2]
+
+Output: 2
 */
 
 import java.util.*;
@@ -19,7 +26,7 @@ public class HousesAndLamps {
         }
 
         return result;
-    }
+    } 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
